@@ -20,7 +20,7 @@ Download the following datasets and unzip them into data folder
 * DUT-OMRON
 * DUTS
 # Download model
-* If you want to test the performance of F3Net, please download the model into out folder
+* If you want to test the performance of SRFFNet, please download the model into out folder
 * If you want to train your own model, please download the pretrained model into res folder
 # Training
 ```    
