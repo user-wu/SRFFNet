@@ -11,6 +11,6 @@ by Shuang Wu, Guangjian Zhang
 
 # Clone repository
 
-//git clone git@github.com:user-wu/SRFFNet.git
-//cd SRFFNet/
+#L git clone git@github.com:user-wu/SRFFNet.git
+#L cd SRFFNet/
 
