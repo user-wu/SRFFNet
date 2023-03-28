@@ -19,6 +19,7 @@ Download the following datasets and unzip them into data folder
 * HKU-IS
 * DUT-OMRON
 * DUTS
+
 Directory Structure
 ```
  data --------------------------
