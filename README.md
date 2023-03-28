@@ -6,7 +6,7 @@ by Shuang Wu, Guangjian Zhang
 * OpenCV 4.0
 * Numpy 1.15
 * TensorboardX
-* Apex
+* [Apex](https://github.com/kezewang/apex)
 # Clone repository
 ```
 git clone git@github.com:user-wu/SRFFNet.git
