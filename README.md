@@ -19,6 +19,25 @@ Download the following datasets and unzip them into data folder
 * HKU-IS
 * DUT-OMRON
 * DUTS
+Directory Structure
+```
+data  |-DUTS        |-image/
+                    |-mask/
+                    |-test.txt
+                    |-train.txt
+      |-DUt-OMRON   |-image/
+                    |-mask/
+                    |-test.txt
+      |-ECSSD       |-image/
+                    |-mask/
+                    |-test.txt
+      |-HKU-IS      |-image/
+                    |-mask/
+                    |-test.txt
+      |-PASCAL-S    |-image/
+                    |-mask/
+                    |-test.txt
+```
 # Download model
 * If you want to test the performance of SRFFNet, please download the [model](https://pan.baidu.com/s/1Yd55r7QuLkfe8qwCDMLkQw?pwd=rvji)  (extract code: ```rvji```) into out folder
 * If you want to train your own model, please download the [pretrained model](https://download.pytorch.org/models/resnet50-19c8e357.pth) into ```res``` folder
