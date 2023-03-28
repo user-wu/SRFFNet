@@ -10,6 +10,7 @@ by Shuang Wu, Guangjian Zhang
 * Apex
 
 # Clone repository
-git clone git@github.com:userwu/SRFFNet.git
-cd SRFFNet/
+
+//git clone git@github.com:user-wu/SRFFNet.git
+//cd SRFFNet/
 
