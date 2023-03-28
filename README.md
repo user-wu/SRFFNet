@@ -27,7 +27,7 @@ Download the following datasets and unzip them into data folder
 cd src/
 python train.py
 ```
-* ResNet-50 is used as the backbone of F3Net and DUTS-TR is used to train the model
+* ResNet-50 is used as the backbone of SRFFNet and DUTS-TR is used to train the model
 * batch=32, lr=0.05, momen=0.9, decay=5e-4, epoch=32
 * Warm-up and linear decay strategies are used to change the learning rate lr
 * After training, the result models will be saved in out folder
@@ -36,8 +36,8 @@ python train.py
 cd src
 python3 test.py
 ```
-* After testing, saliency maps of PASCAL-S, ECSSD, HKU-IS, DUT-OMRON, DUTS-TE will be saved in eval/F3Net/ folder.
-* trained model: url
+* After testing, saliency maps of PASCAL-S, ECSSD, HKU-IS, DUT-OMRON, DUTS-TE will be saved in eval/maps/ folder.
+* trained model: [model](https://pan.baidu.com/s/1Yd55r7QuLkfe8qwCDMLkQw?pwd=rvji)
 
 # Citation
 * If you find this work is helpful, please cite our paper
