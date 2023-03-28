@@ -11,6 +11,7 @@ by Shuang Wu, Guangjian Zhang
 ```
 git clone git@github.com:user-wu/SRFFNet.git
 cd SRFFNet/
+
 # Download dataset 
 Download the following datasets and unzip them into data folder
 * PASCAL-S
