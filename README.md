@@ -39,7 +39,7 @@ trained model: url
 # Citation
 * If you find this work is helpful, please cite our paper
 ```
- @article{wu2023srffnet,
+@article{wu2023srffnet,
   title={SRFFNet: Self-refine, Fusion and Feedback for Salient Object Detection},
   author={Wu, Shuang and Zhang, Guangjian},
   journal={Cognitive Computation},
