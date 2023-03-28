@@ -23,12 +23,12 @@ Directory Structure
 ```
  data --------------------------
       |-DUTS        -image/
-      |              -mask/
+      |             -mask/
       |             -test.txt
-      |              -train.txt
+      |             -train.txt
       --------------------------
       |-DUt-OMRON   -image/
-      |              -mask/
+      |             -mask/
       |             -test.txt
       --------------------------
       |-ECSSD       -image/
@@ -37,7 +37,7 @@ Directory Structure
       --------------------------
       |-HKU-IS      -image/
       |             -mask/
-      |              -test.txt
+      |             -test.txt
       --------------------------
       |-PASCAL-S    -image/
       |             -mask/
