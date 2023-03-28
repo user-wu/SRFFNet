@@ -33,8 +33,9 @@ python train.py
 ```
 cd src
 python3 test.py
+
 * After testing, saliency maps of PASCAL-S, ECSSD, HKU-IS, DUT-OMRON, DUTS-TE will be saved in eval/F3Net/ folder.
-trained model: url
+* trained model: url
 
 # Citation
 * If you find this work is helpful, please cite our paper
