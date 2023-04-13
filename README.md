@@ -28,7 +28,7 @@ Directory Structure
       |             -test.txt
       |             -train.txt
       --------------------------
-      |-DUt-OMRON   -image/
+      |-DUT-OMRON   -image/
       |             -mask/
       |             -test.txt
       --------------------------
