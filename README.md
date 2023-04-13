@@ -14,11 +14,11 @@ cd SRFFNet/
 ```
 # Download dataset 
 Download the following datasets and unzip them into data folder
-* PASCAL-S
-* ECSSD
-* HKU-IS
-* DUT-OMRON
-* DUTS
+* [PASCAL-S](http://cbi.gatech.edu/salobj/)
+* [ECSSD](http://www.cse.cuhk.edu.hk/leojia/projects/hsaliency/dataset.html)
+* [HKU-IS](https://i.cs.hku.hk/~gbli/deep_saliency)
+* [DUT-OMRON](http://saliencydetection.net/dut-omron/)
+* [DUTS](http://saliencydetection.net/duts/)
 
 Directory Structure
 ```
@@ -60,7 +60,7 @@ python train.py
 # Testing
 ```
 cd src
-python3 test.py
+python test.py
 ```
 * After testing, saliency maps of PASCAL-S, ECSSD, HKU-IS, DUT-OMRON, DUTS-TE will be saved in eval/maps/ folder.
 * trained model: [model](https://pan.baidu.com/s/1Yd55r7QuLkfe8qwCDMLkQw?pwd=rvji)
