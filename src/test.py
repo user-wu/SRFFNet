@@ -107,10 +107,10 @@ class Test(object):
                     os.makedirs(head)
                 cv2.imwrite(head+'/'+name[0]+'.png', np.round(pred))
 
-                head2 = '../../PySODMetrics/data/experience_result/TEST/' + self.cfg.datapath.split('/')[-1]
-                if not os.path.exists(head2):
-                    os.makedirs(head2)
-                cv2.imwrite(head2 + '/' + name[0] + '.png', np.round(pred))
+#                 head2 = '../../PySODMetrics/data/experience_result/TEST/' + self.cfg.datapath.split('/')[-1]
+#                 if not os.path.exists(head2):
+#                     os.makedirs(head2)
+#                 cv2.imwrite(head2 + '/' + name[0] + '.png', np.round(pred))
 
 
 if __name__=='__main__':
