@@ -12,7 +12,7 @@ import torch.nn.functional as F
 from torch.utils.data import DataLoader
 from tensorboardX import SummaryWriter
 import dataset
-from net  import F3Net
+from net  import SRFFNet
 from apex import amp
 import numpy as np
 
