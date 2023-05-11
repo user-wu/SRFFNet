@@ -46,7 +46,7 @@ Directory Structure
       --------------------------
 ```
 # Download model
-* If you want to test the performance of SRFFNet, please download the [model](链接：https://pan.baidu.com/s/1dMHVV0EuYccCOGtmlS-vog?pwd=954b) into out folder
+* If you want to test the performance of SRFFNet, please download the [model(https://pan.baidu.com/s/1dMHVV0EuYccCOGtmlS-vog?pwd=954b) into out folder
 * If you want to train your own model, please download the [pretrained model](https://download.pytorch.org/models/resnet50-19c8e357.pth) into ```res``` folder
 # Training
 ```    
