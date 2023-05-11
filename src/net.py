@@ -197,9 +197,9 @@ class SelfModify(nn.Module):
         weight_init(self)
 
 
-class CFM(nn.Module):
+class FFM(nn.Module):
     def __init__(self):
-        super(CFM, self).__init__()
+        super(FFM, self).__init__()
         self.conv1h = nn.Conv2d(64, 64, kernel_size=3, stride=1, padding=1)
         self.bn1h   = nn.BatchNorm2d(64)
         self.conv2h = nn.Conv2d(64, 64, kernel_size=3, stride=1, padding=1)
@@ -254,9 +254,9 @@ class CFM(nn.Module):
 class Decoder(nn.Module):
     def __init__(self):
         super(Decoder, self).__init__()
-        self.cfm45  = CFM()
-        self.cfm34  = CFM()
-        self.cfm23  = CFM()
+        self.ffm45  =FFM()
+        self.ffm34  =FFM()
+        self.ffm23  =FFM()
 
     def forward(self, out2h, out3h, out4h, out5v, glob, fback=None):
         if fback is not None:
@@ -266,20 +266,20 @@ class Decoder(nn.Module):
             refine2      = F.interpolate(fback, size=out2h.size()[2:], mode='bilinear')
 
             out5v = out5v+refine5
-            out4h, out4v = self.cfm45(out4h+refine4, out5v, glob)
-            out3h, out3v = self.cfm34(out3h+refine3, out4v, glob)
-            out2h, pred  = self.cfm23(out2h+refine2, out3v, glob)
+            out4h, out4v = self.ffm45(out4h+refine4, out5v, glob)
+            out3h, out3v = self.ffm34(out3h+refine3, out4v, glob)
+            out2h, pred  = self.ffm23(out2h+refine2, out3v, glob)
         else:
-            out4h, out4v = self.cfm45(out4h, out5v, glob)
-            out3h, out3v = self.cfm34(out3h, out4v, glob)
-            out2h, pred  = self.cfm23(out2h, out3v, glob)
+            out4h, out4v = self.ffm45(out4h, out5v, glob)
+            out3h, out3v = self.ffm34(out3h, out4v, glob)
+            out2h, pred  = self.ffm23(out2h, out3v, glob)
         return out2h, out3h, out4h, out5v, pred
 
     def initialize(self):
         weight_init(self)
 
 
-class F3Net(nn.Module):
+class SRFFNet(nn.Module):
     def __init__(self, cfg):
         super(F3Net, self).__init__()
         self.cfg      = cfg
