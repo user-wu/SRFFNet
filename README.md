@@ -64,6 +64,7 @@ python test.py
 ```
 * After testing, saliency maps of PASCAL-S, ECSSD, HKU-IS, DUT-OMRON, DUTS-TE will be saved in eval/maps/ folder.
 * trained model: [model](https://pan.baidu.com/s/1Yd55r7QuLkfe8qwCDMLkQw?pwd=rvji)
+* saliency maps for reference: [saliency maps](https://pan.baidu.com/s/1iQGRmpLzgaufFQOfTBRmkw?pwd=m4jf)
 
 # Citation
 * If you find this work is helpful, please cite our paper
