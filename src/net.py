@@ -281,7 +281,7 @@ class Decoder(nn.Module):
 
 class SRFFNet(nn.Module):
     def __init__(self, cfg):
-        super(F3Net, self).__init__()
+        super(SRFFNet, self).__init__()
         self.cfg      = cfg
         self.bkbone   = ResNet()
         self.squeeze5 = nn.Sequential(nn.Conv2d(2048, 64, 1), nn.BatchNorm2d(64), nn.ReLU(inplace=True))
