@@ -9,7 +9,7 @@ by Shuang Wu, Guangjian Zhang
 * [Apex](https://github.com/kezewang/apex)
 # Clone repository
 ```
-git clone git@github.com:user-wu/SRFFNet.git
+git clone [git@github.com:user-wu/SRFFNet.git](https://github.com/user-wu/SRFFNet.git)
 cd SRFFNet/
 ```
 # Download dataset 
