@@ -7,6 +7,9 @@ by Shuang Wu, Guangjian Zhang
 * Numpy 1.15
 * TensorboardX
 * [Apex](https://github.com/kezewang/apex)
+
+# Test Demo
+[Fast Test Demo](链接: https://pan.baidu.com/s/1GcHwWk6T6HVzvbRRRCw50A?pwd=re5m)
 # Clone repository
 ```
 git clone https://github.com/user-wu/SRFFNet.git
