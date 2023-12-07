@@ -9,7 +9,7 @@ by Shuang Wu, Guangjian Zhang
 * [Apex](https://github.com/kezewang/apex)
 
 # Test Demo
-[Fast Test Demo](链接: https://pan.baidu.com/s/1GcHwWk6T6HVzvbRRRCw50A?pwd=re5m)
+[Fast Test Demo](https://pan.baidu.com/s/1GcHwWk6T6HVzvbRRRCw50A?pwd=re5m)
 # Clone repository
 ```
 git clone https://github.com/user-wu/SRFFNet.git
