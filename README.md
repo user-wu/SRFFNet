@@ -2,7 +2,7 @@
 
 by Shuang Wu, Guangjian Zhang
 
-the Paper has been accepted by《Cognitive Computation》.
+the Paper has been accepted by[《Cognitive Computation》](https://link.springer.com/journal/12559).
 
 # Prerequisites
 * Python 3.7
