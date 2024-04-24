@@ -1,4 +1,6 @@
 # The Code for Paper "[SRFFNet：Self-refine, Fusion, Feedback for Salient Object Detection](https://doi.org/10.1007/s12559-023-10130-x)".
+
+the Paper has been accepted by《Cognitive Computation》.
 by Shuang Wu, Guangjian Zhang
 # Prerequisites
 * Python 3.7
